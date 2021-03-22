@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DockerComposeFunctionApp": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34746,
+      "useSSL": false
+    }
+  }
+}

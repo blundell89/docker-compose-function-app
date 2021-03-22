@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  dockercomposefunctionapp:
+    container_name: dockercomposefunctionapp
+    image: ${DOCKER_REGISTRY-}dockercomposefunctionapp
+    ports: ["6667:80"]
+    build:
+      context: .
+      dockerfile: DockerComposeFunctionApp/Dockerfile
